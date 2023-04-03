@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #000;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  justify-content: center;
+  align-items: center;
+}
+
+.columns > div {
+  max-width: 300px;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.container {
+  margin-inline: 100px;
+}

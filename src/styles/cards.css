@@ -1,0 +1,11 @@
+.cards {
+    padding: 50px 20px;
+    background: #c9c9c9;
+    border: solid 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.cardFooter {
+    margin-top: 25px;
+}

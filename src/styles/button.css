@@ -1,0 +1,29 @@
+.align-content-btn {
+    display: flex;
+    align-items: center;
+}
+
+.img-btn{
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+}
+
+.btn {
+    padding: 0px;
+    background: #0676D9;
+    border: none;
+    border-radius: 5px;
+}
+  
+.btn:hover {
+    background: #282c34;
+    cursor: pointer;
+}
+
+.text-btn {
+    padding-block: 5px;
+    padding-inline: 25px;
+}
