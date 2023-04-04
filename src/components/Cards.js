@@ -1,6 +1,6 @@
 import "../styles/cards.css";
 import Button from "./Button";
-const Cards = ({ data, only, setCounter }) => {
+const Cards = ({ data, only, setCounter, onClick }) => {
   return (
     <div key={only} className="cards">
       <div>
@@ -9,7 +9,7 @@ const Cards = ({ data, only, setCounter }) => {
         <strong>$ {data.cost}</strong>
       </div>
       <div className="cardFooter">
-        <Button startIcon="carrito.svg" onClick={() => setCounter(d => d+1)}>Agregar al carrito</Button>
+        <Button startIcon="carrito.svg" onClick={() => {setCounter(d => d+1); onClick(data);}}>Agregar al carrito</Button>
       </div>
     </div>
   );

@@ -20,6 +20,87 @@ body {
   color: white;
 }
 
+.text-color-gray {
+  color: #999999;
+}
+
+.text-color-black {
+  color: black;
+}
+
 .container {
   margin-inline: 100px;
+}
+
+.card {
+  background: white;
+  border-radius: 5px;
+}
+
+.container {
+  margin: 50px;
+  padding: 50px;
+}
+
+.border {
+  border: 1px solid #0676D9;
+  border-radius: 5px;
+}
+
+.text-align-right { 
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.gap-5 {
+  gap: 30px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.imgContentP{
+  border-radius: 5px;
+  margin-block: 20px;
+}
+
+.text-large {
+  margin: 20px;
+  font-size: x-large;
+}
+
+.mt-10 {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+}
+th, td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+td {
+  border-bottom: 1px solid #999999;
+}
+
+table td:first-child {
+  width: 80%;
+  text-align: left;
+}
+
+table td:nth-child(2) {
+  width: 5%;
+}
+table td:nth-child(3) {
+  width: 10%;
+}
+table td:nth-child(4) {
+  width: 5%;
 }

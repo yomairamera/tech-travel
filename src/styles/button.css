@@ -23,6 +23,19 @@
     cursor: pointer;
 }
 
+.btn-icon {
+    background: none;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-icon:hover {
+    background: #282c34;
+    cursor: pointer;
+}
+
 .text-btn {
     padding-block: 5px;
     padding-inline: 25px;

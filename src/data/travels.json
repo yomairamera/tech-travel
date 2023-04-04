@@ -1,30 +1,36 @@
 [
     {
+        "id": 1,
         "name": "Viaje para Israel",
         "cost": 200,
         "image": "./images/image1.png"
     },
     {
+        "id": 2,
         "name": "Viaje para Alemania",
         "cost": 300,
         "image": "./images/image1.png"
     },
     {
+        "id": 3,
         "name": "Viaje para España",
         "cost": 250,
         "image": "./images/image1.png"
     },
     {
+        "id": 4,
         "name": "Viaje para Colombia",
         "cost": 100,
         "image": "./images/image1.png"
     },
     {
+        "id": 5,
         "name": "Viaje para Colombia",
         "cost": 100,
         "image": "./images/image1.png"
     },
     {
+        "id": 6,
         "name": "Viaje para Colombia",
         "cost": 100,
         "image": "./images/image1.png"

@@ -1,7 +1,7 @@
 import travels from "../data/travels.json";
 import Cards from "../components/Cards";
 
-const Travels = ({ setCounter }) => {
+const Travels = ({ setCounter, updateData }) => {
   return (
     <div className="container columns">
       {travels.map((data, index) => (
@@ -10,6 +10,7 @@ const Travels = ({ setCounter }) => {
           only={`${index}-key`}
           data={data}
           setCounter={setCounter}
+          onClick={updateData}
         />
       ))}
     </div>
